@@ -1,0 +1,120 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+}
+
+body{
+    background: url(image/bodybg1.jpg) fixed no-repeat;
+}
+
+/* external */
+
+.external{
+    background: white;
+    width: 95%;
+    margin: -10px auto;
+}
+
+/* end external */
+/* styling of head section */
+.navbar-brand img{
+    height: 50px;
+    /* width: 100px; */
+}
+
+#contect > a{
+background-color: brown;
+color: white;
+transition: all 0.2s ease-in-out;
+border: 5px white double;
+}
+
+#contect > a:hover{
+    font-size: 18px;
+    transform: scale(1.1);
+    color: blue;
+}
+
+/* end of styling of head section */
+
+
+/* carousel section */
+
+
+.carousel .carousel-item {
+    height: 400px;
+  }
+  
+  .carousel-item img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      min-height: 400px;
+  }
+
+  .carousel-caption{
+      background-color: rgba(0,0,0,0.3);
+      border: double rgba(0,0,0,1) 1px;
+      border-radius: 5px;
+      box-shadow: rgba(0,0,0,0.8) 3px 3px 10px 5px;
+      width: 50%;
+      margin: 0 auto;
+  }
+
+  .carousel-control-prev , .carousel-control-next{
+      background: rgba(0,0,0,0.1);
+      box-shadow: rgba(0,0,0,0.1) 3px 3px 10px 5px;
+      width: 10%;
+      color: red!important;
+
+  }
+/* end of carousel section */
+
+
+/* footer section */
+
+footer{
+    background: black;
+}
+
+footer hr{
+    background-color: white;
+}
+
+footer .col-md-4 a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+footer .col-md-4{
+    margin-bottom: 20px;
+}
+
+.margin{
+    margin-top: 90px;
+}
+
+@media screen and (max-width:768px){
+    .margin{
+        margin-top: 0px;
+    }
+}
+
+@media screen and (min-width:880px){
+    .margin{
+        margin-top: 100px;
+    }
+}
+/* end of footer section */
+
+
+/* copyright section */
+.copyright{
+    background-color: rgba(0,0,0,0.9);
+    color: white;
+    
+}
+
+
+/* end of copyright section */
